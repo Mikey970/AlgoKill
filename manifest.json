@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AlgoKill",
+  "version": "1.0.0",
+  "description": "A simple extenstion that fixes youtube search to actually show what you're looking for.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
