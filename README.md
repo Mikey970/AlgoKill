@@ -1,0 +1,1 @@
+Just a small proof of concept for an idea I wanted to try. I was getting tired of youtube showing me videos unreleated to my search. Adding a date dork to the search seems to make the results more accurate. So ALGOKILL is a simple chrome extension that appends the dork before:2025 to each search query.  Insuring the youtube search results are more accurate to the actual query.
